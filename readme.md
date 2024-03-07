@@ -23,3 +23,4 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 | previous_owners | TINYINT     | NOTNULL, DEFAULT(1)                        |             |
 | license_plate   | CHAR(7)     | NOTNULL, UNIQUE                            |             |
 | production_year | YEAR        | NOTNULL                                    |             |
+| price           | FLOAT(8,2)  | NOTNULL, UNSIGNED                          |             |
